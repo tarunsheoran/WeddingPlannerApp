@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary palette (rose / maroon + gold accents) -->
+    <color name="colorPrimary">#8E3A59</color> <!-- deep rose -->
+    <color name="colorPrimaryDark">#6E2C45</color> <!-- darker rose -->
+    <color name="colorSecondary">#D4AF37</color> <!-- gold accent -->
+
+
+    <!-- Neutrals -->
+    <color name="colorBackground">#FFF8FB</color> <!-- soft blush -->
+    <color name="colorSurface">#FFFFFF</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+    <color name="colorOnBackground">#333333</color>
+    <color name="colorOnSurface">#333333</color>
+    <color name="colorDivider">#E9E0E5</color>
+
+    <color name="purple_500">#6200EE</color>
+    <color name="teal_200">#03DAC5</color>
+    <color name="purple_700">#3700B3</color>
+    <color name="teal_700">#018786</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="soft_pink">#F8BBD0</color>
+    <color name="rose_gold">#B76E79</color>
+
+
+    <!-- Status -->
+    <color name="colorSuccess">#2E7D32</color>
+    <color name="colorWarning">#F9A825</color>
+    <color name="colorError">#C62828</color>
+</resources>

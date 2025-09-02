@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/venue_bg"
+    tools:context=".VenuesActivity">
+
+    <EditText
+        android:id="@+id/etMaxBudget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter max budget"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/etMinCapacity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter min capacity"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnFilter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Filter Venues" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvVenues"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        tools:listitem="@layout/item_venue" />
+
+</LinearLayout>

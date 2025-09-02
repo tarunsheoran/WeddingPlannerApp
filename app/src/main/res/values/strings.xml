@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">YourAppName</string>
+    <string name="hint_max_budget">Enter max budget</string>
+    <string name="hint_min_capacity">Enter min capacity</string>
+    <string name="filter_button">Filter</string>
+    <string name="no_venues_found">No venues found</string>
+</resources>
